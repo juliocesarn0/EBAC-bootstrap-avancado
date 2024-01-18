@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Avançado</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css" />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <div id="carousel-exemplo" class="carousel carousel-fade slide mx-auto">
+          <div class="carousel-inner">
+            <div data-bs-interval="3000" class="carousel-item active">
+              <img
+                class="d-block w-100"
+                src="./images/Thelastofus.jpg"
+                alt=""
+              />
+              <div class="carousel-caption">
+                <h2>The last of us</h2>
+              </div>
+            </div>
+            <div data-bs-interval="3000" class="carousel-item">
+              <img class="d-block w-100" src="./images/bioshock.jpg" alt="" />
+              <div class="carousel-caption">
+                <h2>biochock</h2>
+              </div>
+            </div>
+            <div data-bs-interval="3000" class="carousel-item">
+              <img class="d-block w-100" src="./images/re4.jpg" />
+              <div class="carousel-caption">
+                <h2>redident evil 4</h2>
+              </div>
+            </div>
+            <div data-bs-interval="3000" class="carousel-item">
+              <img class="d-block w-100" src="./images/thewitcher.png" />
+              <div class="carousel-caption">
+                <h2>The witcher 3</h2>
+              </div>
+            </div>
+          </div>
+          <button
+            data-bs-target="#carousel-exemplo"
+            data-bs-slide="prev"
+            class="carousel-control-prev start-0"
+            type="button"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
+          <button
+            data-bs-target="#carousel-exemplo"
+            data-bs-slide="next"
+            class="carousel-control-next end-0"
+            type="button"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Próximo</span>
+          </button>
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carousel-exemplo"
+              class="active"
+              data-bs-slide-to="0"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carousel-exemplo"
+              data-bs-slide-to="1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carousel-exemplo"
+              data-bs-slide-to="2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carousel-exemplo"
+              data-bs-slide-to="3"
+            ></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <h2>Mais jogos</h2>
+    <section>
+      <div class="container">
+        <div class="row g-3">
+          <div class="col-md-4 col-sm-6 col-12 ">
+            <article class="card">
+              <header class="card-header">Uncharted 4</header>
+              <img src="./images/Cards/Uncharted-4_PS4.jpg" alt="" />
+              <div class="card-body">
+                <h4 class="card-title">Sobre o jogo</h4>
+                <p class="card-text">
+                    Uncharted 4: A Thief's End é um jogo eletrônico de ação-aventura desenvolvido pela Naughty Dog e publicado pela Sony Computer Entertainment. É o quarto título principal da série Uncharted e foi lançado exclusivamente para PlayStation 4 em 10 de maio de 2016.
+                </p>
+                <a href="#" class="btn btn-primary">leia mais</a>
+              </div>
+              
+            </article>
+          </div>
+          <div class="col-md-4 col-sm-6 col-12 ">
+            <article class="card">
+              <header class="card-header">Resident evil 2</header>
+              <img src="./images/Cards/resident-evil-2.jpg" alt="" />
+              <div class="card-body">
+                <h4 class="card-title">Sobre o jogo</h4>
+                <p class="card-text">
+                    Resident Evil 2, chamado no Japão de Biohazard RE:2, é um jogo eletrônico de survival horror desenvolvido e publicado pela Capcom, sendo um remake do jogo original de 1998.
+                </p>
+                <a href="#" class="btn btn-primary">leia mais</a>
+              </div>
+              
+            </article>
+          </div>
+          
+          <div class="col-md-4 col-sm-6 col-12">
+            <article class="card">
+              <header class="card-header">God of war</header>
+              <img src="./images/Cards/GodOfWar.webp" alt="" />
+              <div class="card-body">
+                <h4 class="card-title">Sobre o jogo</h4>
+                <p class="card-text">
+                    God of War é um jogo eletrônico de ação-aventura desenvolvido pela Santa Monica Studio e publicado pela Sony Interactive Entertainment. Foi lançado em 20 de abril de 2018 para PlayStation 4 e em 14 de janeiro de 2022 para Microsoft Windows.
+                </p>
+                <a href="#" class="btn btn-primary">leia mais</a>
+              </div>
+              
+            </article>
+          </div>
+          
+          
+          
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
