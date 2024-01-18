@@ -1,4 +1,4 @@
-#carousel-exemplo {
+#carousel {
   width: 70%;
   padding: 10px;
 }
@@ -7,4 +7,8 @@ h2 {
   display: flex;
   justify-content: center;
   padding-bottom: 1em;
+}
+
+body {
+  background-color: #ccc;
 }
